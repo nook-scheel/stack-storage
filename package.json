@@ -1,0 +1,44 @@
+{
+  "name": "stack-storage",
+  "version": "0.1.0",
+  "description": "This is storage for callstack",
+  "main": "index.js",
+  "scripts": {
+    "test": "egg-bin test",
+    "test-cov": "NODE_ENV=development egg-bin cov",
+    "ci": "npm run lint && npm run test-cov",
+    "lint": "eslint test *.js --fix"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nooks/stack-storage.git"
+  },
+  "keywords": [
+    "context",
+    "storage",
+    "callstack",
+    "async_hooks"
+  ],
+  "bugs": {
+    "url": "https://github.com/nooks/stack-storage/issues"
+  },
+  "homepage": "https://github.com/nooks/stack-storage",
+  "author": "Nook Scheel <nook@live.ru> (http://nook.pw)",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "ci": {
+    "version": "8, 9, 10"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.6.3",
+    "egg-ci": "^1.8.0",
+    "eslint": "^4.19.1",
+    "eslint-config-egg": "^7.0.0",
+    "koa-compose": "^4.0.0"
+  }
+}
