@@ -1,6 +1,6 @@
 {
   "name": "stack-storage",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "This is storage for callstack",
   "main": "index.js",
   "scripts": {
