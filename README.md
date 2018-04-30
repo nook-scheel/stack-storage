@@ -1,6 +1,20 @@
 stack-storage
 =================
 
+[![NPM version][npm-image]][npm-url]
+[![build status][travis-image]][travis-url]
+[![Test coverage][codecov-image]][codecov-url]
+[![npm download][download-image]][download-url]
+
+[npm-image]: https://img.shields.io/npm/v/stack-storage.svg?style=flat
+[npm-url]: https://npmjs.org/package/stack-storage
+[travis-image]: https://img.shields.io/travis/nooks/stack-storage.svg?style=flat
+[travis-url]: https://travis-ci.org/nooks/stack-storage
+[codecov-image]: https://codecov.io/gh/nooks/stack-storage/branch/master/graph/badge.svg
+[codecov-url]: https://codecov.io/gh/nooks/stack-storage
+[download-image]: https://img.shields.io/npm/dm/stack-storage.svg?style=flat-square
+[download-url]: https://npmjs.org/package/stack-storage
+
 an storage on `async_hooks`, hack callstack.
 
 Mandatory use through the variable process.storage
@@ -59,4 +73,8 @@ app.use(async (ctx) => {
 
 app.listen(3000)
 ```
+
+## License
+
+[MIT](LICENSE)
 
