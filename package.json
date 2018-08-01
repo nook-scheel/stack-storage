@@ -32,7 +32,7 @@
     "node": ">= 8.0.0"
   },
   "ci": {
-    "version": "8, 9"
+    "version": "8, 10"
   },
   "devDependencies": {
     "egg-bin": "^4.6.3",
