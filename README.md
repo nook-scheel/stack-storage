@@ -8,10 +8,10 @@ stack-storage
 
 [npm-image]: https://img.shields.io/npm/v/stack-storage.svg?style=flat
 [npm-url]: https://npmjs.org/package/stack-storage
-[travis-image]: https://img.shields.io/travis/nooks/stack-storage.svg?style=flat
-[travis-url]: https://travis-ci.org/nooks/stack-storage
-[codecov-image]: https://codecov.io/gh/nooks/stack-storage/branch/master/graph/badge.svg
-[codecov-url]: https://codecov.io/gh/nooks/stack-storage
+[travis-image]: https://img.shields.io/travis/nook-scheel/stack-storage.svg?style=flat
+[travis-url]: https://travis-ci.org/nook-scheel/stack-storage
+[codecov-image]: https://codecov.io/gh/nook-scheel/stack-storage/branch/master/graph/badge.svg
+[codecov-url]: https://codecov.io/gh/nook-scheel/stack-storage
 [download-image]: https://img.shields.io/npm/dm/stack-storage.svg?style=flat-square
 [download-url]: https://npmjs.org/package/stack-storage
 
